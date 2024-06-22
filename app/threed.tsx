@@ -14,7 +14,7 @@ export function ThreeDCardDemo() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          Make things float in air
+          Meet Jane
         </CardItem>
         <CardItem
           as="p"
@@ -25,7 +25,7 @@ export function ThreeDCardDemo() {
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
-            src="/pexels.jpg"
+            src="/shutterstock.jpg"
             height={1000}
             width={1000}
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

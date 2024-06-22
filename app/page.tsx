@@ -12,6 +12,10 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Design from "./design";
 import { ThreeDCardDemo } from "./threed";
 import Footer from "./footer/page";
+import Grid from "./grid/page";
+import GridDemo from "./grid2/page";
+import  BackgroundBeamsDemo  from "./beem/page";
+import Design2 from "./design2";
 
 
 
@@ -66,8 +70,13 @@ export default function Home() {
          <SliderOne />
          <Design />
         </div>
+        <Grid />
+        <Design2/>
+      
+      <GridDemo />
+      <BackgroundBeamsDemo />
       </div>
-      <ThreeDCardDemo />
+      
 
       <Footer />
     </div>
